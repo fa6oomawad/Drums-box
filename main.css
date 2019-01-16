@@ -1,7 +1,9 @@
 body{
     margin:0;
     padding:0;
+    background:url(1.jpg);
 }
+
 
 .box {
     width:700px;
@@ -11,7 +13,8 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    border:1px solid wheat;
+    border:10px solid rgb(241, 205, 158);
+    border-radius: 10px;
 }
 
 .drumbox{
@@ -22,6 +25,7 @@ body{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
+   
 
 }
 .drumpad{
@@ -29,9 +33,17 @@ body{
     height: 90px;
     border:1px solid white;
     margin-top: 20px;
-    background-color:#A8733A;
+    background-color:rgba(168, 115, 58, 0.726);
     cursor: pointer;
+    font-family: 'Courier New', Courier;
+    font-size: 30px;
+    color:rgb(41, 21, 0);
+    font-weight: bold;
 
+}
+
+.drumpad:hover{
+    background-color:rgba(247, 143, 33, 0.726);
 }
 
 
@@ -41,6 +53,15 @@ body{
         height: 100%;
         background-color: #D09E69;
         overflow:hidden;
+
+}
+.tools h4 {
+    text-align: center;
+    margin-top:80px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier;
+    color:rgb(63, 34, 2);
+    font-size:20px;
 
 }
 #lbox{
@@ -79,13 +100,21 @@ position: absolute;
     transform: translate(-50%,-50%);
     border:1px solid #552D02;
     border-radius: 2px;
+    
 }
 
 #volume h2 {
-    font-family: "Courier";
+    font-family: 'Courier New', Courier;
     font-size:17px;
     font-family: bold;
-    
+    color:rgb(63, 34, 2);
     text-align: center;
 
 }
+
+@media only screen and (max-width: 800px) {
+    .box {
+        width: 80%;
+        height:60%;
+    }
+  }
