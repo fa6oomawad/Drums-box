@@ -65,6 +65,8 @@ position: absolute;
     transform: translate(-50%,-50%);
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+
 }
 
 #volume {
@@ -77,4 +79,13 @@ position: absolute;
     transform: translate(-50%,-50%);
     border:1px solid #552D02;
     border-radius: 2px;
+}
+
+#volume h2 {
+    font-family: "Courier";
+    font-size:17px;
+    font-family: bold;
+    
+    text-align: center;
+
 }
