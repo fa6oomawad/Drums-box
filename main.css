@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.box {
+    width:700px;
+    height: 400px;
+    background-color: rgb(192, 14, 29);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid wheat;
+}
+
+.drumbox{
+    width:60%;
+    height: 100%;
+    background-color: #552D02;
+    float:left;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.drumpad{
+    width: 30%;
+    height: 90px;
+    border:1px solid white;
+    margin-top: 20px;
+    background-color:#A8733A;
+    cursor: pointer;
+
+}
+
+
+.tools {
+    
+        width:40%;
+        height: 100%;
+        background-color: #D09E69;
+        overflow:hidden;
+
+}
+#lbox{
+width:70px;
+height: 30px;
+background-color: #FBD3A8;
+position: absolute;
+    left:80%;
+    top:30%;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+    border:1px solid #552D02;
+
+}
+ #onoff{
+    width:30px;
+    height: 30px;
+    background-color: #552D02;
+    position: absolute;
+    left:83%;
+    top:30%;
+    transform: translate(-50%,-50%);
+    border: none;
+    border-radius: 2px;
+}
+
+#volume {
+    width:170px;
+    height: 60px;
+    background: #FBD3A8;
+    position: absolute;
+    left:80%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid #552D02;
+    border-radius: 2px;
+}
