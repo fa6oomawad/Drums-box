@@ -13,14 +13,14 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    border:10px solid rgb(241, 205, 158);
+    border:10px solid rgb(252, 252, 252);
     border-radius: 10px;
 }
 
 .drumbox{
     width:60%;
     height: 100%;
-    background-color: #552D02;
+    background-color: rgb(28, 8, 65);
     float:left;
     display:flex;
     flex-flow: row wrap;
@@ -33,17 +33,17 @@ body{
     height: 90px;
     border:1px solid white;
     margin-top: 20px;
-    background-color:rgba(168, 115, 58, 0.726);
+    background-color:rgba(151, 158, 165, 0.726);
     cursor: pointer;
     font-family: 'Courier New', Courier;
     font-size: 30px;
-    color:rgb(41, 21, 0);
+    color:rgb(253, 253, 253);
     font-weight: bold;
 
 }
 
 .drumpad:hover{
-    background-color:rgba(247, 143, 33, 0.726);
+    background-color:rgba(168, 74, 255, 0.726);
 }
 
 
@@ -51,7 +51,7 @@ body{
     
         width:40%;
         height: 100%;
-        background-color: #D09E69;
+        background-color: rgb(0, 0, 0);
         overflow:hidden;
 
 }
@@ -60,26 +60,26 @@ body{
     margin-top:80px;
     font-weight: bold;
     font-family: 'Courier New', Courier;
-    color:rgb(63, 34, 2);
+    color:rgb(255, 255, 255);
     font-size:20px;
 
 }
 #lbox{
 width:70px;
 height: 30px;
-background-color: #FBD3A8;
+background-color: rgb(28, 8, 65);
 position: absolute;
     left:80%;
     top:30%;
     transform: translate(-50%,-50%);
     border-radius: 2px;
-    border:1px solid #552D02;
+    border:1px solid rgb(255, 255, 255);
 
 }
  #onoff{
     width:30px;
     height: 30px;
-    background-color: #552D02;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     left:83%;
     top:30%;
@@ -93,12 +93,12 @@ position: absolute;
 #volume {
     width:170px;
     height: 60px;
-    background: #FBD3A8;
+    background: rgb(226, 225, 223);
     position: absolute;
     left:80%;
     top:50%;
     transform: translate(-50%,-50%);
-    border:1px solid #552D02;
+    border:1px solid rgb(35, 6, 59);
     border-radius: 2px;
     
 }
@@ -107,7 +107,7 @@ position: absolute;
     font-family: 'Courier New', Courier;
     font-size:20px;
     font-family: bold;
-    color:rgb(63, 34, 2);
+    color:rgb(255, 253, 251);
     text-align: center;
 
 }
@@ -128,7 +128,7 @@ position: absolute;
       appearance: none;
       width:32%;
       height: 25px;
-      background: #552D02;
+      background: rgb(28, 8, 65);
       outline:none;
       border-radius: 10%;
       
@@ -139,7 +139,7 @@ position: absolute;
     appearance: none;
     width: 25px;
     height: 25px; 
-  background: #FBD3A8; 
+  background: rgb(231, 223, 223); 
   border-radius: 50%;
   cursor: pointer; 
   }
@@ -147,7 +147,7 @@ position: absolute;
   .slider::-moz-range-thumb {
     width: 25px; 
     height: 25px; 
-    background: #FBD3A8;
+    background: rgb(221, 215, 209);
     cursor: pointer; 
   }
    #vcontrol h2 {
@@ -155,7 +155,7 @@ position: absolute;
     left:80%;
     top:75%;
     transform: translate(-50%,-50%);
-    color:#552D02;
+    color:rgb(255, 255, 255);
     font-family: 'Courier New', Courier;
     
     font-family: bold;
