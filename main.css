@@ -128,7 +128,17 @@ position: absolute;
             top:80%;
         }
        
+        .tools h4 {
+            text-align: center;
+            margin-top:60px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier;
+            color:rgb(255, 255, 255);
+            font-size:16px;
         
+        }
+        #lbox{
+            width:57px;
         
         
   }
