@@ -113,7 +113,7 @@ position: absolute;
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
     .box {
         width: 80%;
         height:60%;
@@ -138,7 +138,7 @@ position: absolute;
         
         }
         #lbox{
-            width:57px;
+            width:57px;}
         
         
   }
